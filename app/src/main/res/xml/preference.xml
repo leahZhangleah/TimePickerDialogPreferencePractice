@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.android.timepickerdialogpreferencepractice.Calendar
+        android:title="FromTime"
+        android:dialogTitle="FromTime"
+        android:dialogLayout="@layout/timepicker_dialog"
+        android:positiveButtonText="set"
+        android:negativeButtonText="cancel"
+        android:key="fromTime"
+        android:defaultValue="0"
+        android:persistent="true"/>
+</PreferenceScreen>
